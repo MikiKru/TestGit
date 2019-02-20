@@ -7,7 +7,7 @@ public class Main {
 
 	System.out.println("Kasia ,  Que tall?");
 	
-// Kasia utworzyłem nowy branch karol potrafisz tak?:D
+// Kasia utworzyłem nowy branch karol, potrafisz tak?:D
 // Pokaż co potrafisz i się pochwal!;)
     }
 
