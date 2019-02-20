@@ -7,7 +7,7 @@ public class Main {
 
 	System.out.println("Kasia ,  Que tall?");
 
-/
+// Kasia idź spać:)
     }
 
 }
