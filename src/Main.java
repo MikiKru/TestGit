@@ -1,4 +1,4 @@
-public class Main {
+﻿public class Main {
     public static void main(String[] args)
     {
         System.out.println("Hola, Kasia");
@@ -9,6 +9,7 @@ public class Main {
 	
 // Kasia utworzyłem nowy branch karol, potrafisz tak?:D
 // Pokaż co potrafisz i się pochwal!;)
+// Zobaczymy.. sie okaze :P 
     }
 
 }
