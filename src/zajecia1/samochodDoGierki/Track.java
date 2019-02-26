@@ -16,14 +16,26 @@ public class Track {
     //stringBuilder - klasa, 1, tworzenie obiektu,
 
     // implementacja zamiany tor na string w celu jego wyswietlnia
+
+    /**
+     * Przykład wyniku dla tablicy 3 elementowej zawierajacej samochod na pozycji 1:
+     * <pre>
+     *     _C_
+     * </pre>
+     * @return string reprezentujacy aktualny stan toru
+     */
     @Override
     public String toString() {  // toString dziedziczy po klasie object,konwertuje na string
+        // uzywamy stringbuilder poniewwaz jest wydajniejszy od kankatencaji stringow,jest szybszy w dzialaniu,
         StringBuilder viewBuilder = new StringBuilder();
-
-        for (int i = 0; i < cars.length; i++) {
-            if (cars[i] == null) {
+        // petla ktora towrzy stinga reprezentujacego aktualny stan toru,
+        for (int i = 0; i < cars.length; i++){
+            // jesli na pozycji nie ma samochodu to dodaj do tworzonego stringa podkreslnik, pokazujacy ze tam nic nie ma
+            if (cars[i] == null){
                 viewBuilder.append("_");
             } else {
+                // jesli w tym miejscu jest smaochod to dodaj do stirnga C,
+                //
                 viewBuilder.append("C");
             }
         }
