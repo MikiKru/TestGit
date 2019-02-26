@@ -1,7 +1,8 @@
 package zajecia1.samochodDoGierki;
 //
 public class Main {
-    // uruchamia logike, 
+    // uruchamia logike,
+    // throw - przechwycenine wyjatku
     public static void main(String[] args) throws InterruptedException {
 /*        Wheel[] wheels = {new Wheel(), new Wheel(), new Wheel(), new Wheel()};
         Car car = new Car("red", wheels, new Engine(), 10);
